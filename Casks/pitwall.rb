@@ -1,12 +1,12 @@
 # Filled in and pushed to the tap by `make cask`.
 cask "pitwall" do
-  version "0.1.0"
-  sha256 "1c5181167aff4553487291fd835931cc3db5a3613839a661491e14263124e4fa"
+  version "0.1.1"
+  sha256 "e55fca09b54d3f5864e889e55bb5383c9a46abd889817a897f14c9c3ade50eb7"
 
   url "https://github.com/jason-shen/pitwall/releases/download/v#{version}/Pitwall-#{version}-macos.zip"
   name "Pitwall"
   desc "Agentic IDE: run, review and merge coding agents"
-  homepage "https://github.com/jason-shen/pitwall"
+  homepage "https://pitwallide.com"
 
   depends_on macos: ">= :big_sur"
 
