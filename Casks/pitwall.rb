@@ -1,7 +1,7 @@
 # Filled in and pushed to the tap by `make cask`.
 cask "pitwall" do
-  version "0.3.5"
-  sha256 "0176aabc62dda37ee465c6cd44562e5234b1b0a8a8fe6c633471ab140225e72c"
+  version "0.3.6"
+  sha256 "16dcf0afe378d33397c42836814ff29e3730581a1304f6a4589e48bf92e25412"
 
   url "https://github.com/jason-shen/pitwall/releases/download/v#{version}/Pitwall-#{version}-macos.zip"
   name "Pitwall"
